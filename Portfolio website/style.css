@@ -78,11 +78,12 @@ nav img{
     font-size: 14px;
     color: #fff;
 }
+
 .hero-btn{
     display: inline-block;
     text-decoration: none ;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid rgb(255, 255, 255);
     padding: 12px 34px;
     font-size: 13px;
     background-color: transparent;
@@ -98,6 +99,7 @@ nav img{
     margin: auto;
     text-align: center;
     padding-top: 100px ;
+    
 }
 h1{
     font-size: 36px;
@@ -123,7 +125,7 @@ p{
 }
 .col{
     flex-basis: 31%;
-    background: #ffdfdd;
+    background: rgba(147, 246, 255, 0.7);
     border-radius: 15%;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -133,14 +135,14 @@ p{
 .col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0,2);
 }
-
+/*
 .container{
     width: 50%;
     background-color: #787878;
 }
 .skills{
     text-align: left;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     color: rgb(12, 0, 0);
 }
@@ -164,7 +166,7 @@ p{
     background-color: #ffdfdd;
     text-align: right;
 }
-
+*/
 .projects{
     width: 80%;
     margin: auto;
@@ -244,7 +246,91 @@ p{
     margin-bottom: 15px;
     text-align: left;
 }
+.con{
+    margin: auto;
+    width: 80%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/mobilelike.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 80px 0px;
+    color: #fff;
+    position: relative;
+}
+.con h1{
+    margin-bottom: 40px;
+    padding:0%;
+    font-size: 25px;
+    color: #fff;
+}
 
+.contact{
+    margin: auto;
+    width:80%;
+    text-align: Left;
+    padding: 20px 0px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.contact h1{
+    margin-bottom: 40px;
+    padding:0%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.h-btn{
+    display: inline-block;
+    text-decoration: none ;
+    color: rgb(0, 0, 0);
+    border: transparent;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.h-btn:hover{
+    border: 0px solid #757575;
+    background: #a0a0a0;
+    transition: 1s;
+}
+
+.contact{
+    margin: 100px;
+    width: 80%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/mobilelike.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 80px 0px;
+    color: #fff;
+    position: relative;
+}
+
+.contact h1{
+    margin-bottom: 40px;
+    padding:0%;
+    font-size: 25px;
+    color: #fff;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none ;
+    color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #650000;
+    background: #990000;
+    transition: 1s;
+}
 
 /* Responsive */
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel ="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     
 </head>
 <body>
@@ -15,30 +16,36 @@
             <div class="nav-links">
                 
                 <ul>
-                    <li><a href="">HOME Kaiser</a></li>
+                    <li><a href="#text">HOME</a></li>
                     <li><a href="#educati">ABOUT</a></li>
-                    <li><a href="">CAREER</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#con">CONTACT</a></li>
                 </ul>
             </div>
             
         </nav>
-    <div class="text-box">
-        <h1>Rashmi S</h1>
+    <div class="text-box" id="text">
+        <h1>Rashmi S</h1>  
         <p>
-            A final year undergraduate student at Kumaraguru 
-            college of technology majoring in Electronics and 
-            Communication Engineering. <br>An idealistic person, 
-            who believes that 'there is always a greater 
-            height to aim for'.
-            <br>
+            Life is what happens, when you plan your future the other way around.<br>
+            Mould it through hard work, to stay on track.
         </p>
         <br>
+        <div>
+            <!-- -->
         <a href="https://www.linkedin.com/in/rashmi-s-3045091b9/" class = "hero-btn" >LinkedIn</a>
+        </div>
     </div>      
     </section>
 
 <section class="education" id="educati">
     <h1>About</h1>
+    <div>
+        <p>
+            A Final year undergraduate student at Kumaraguru college of technology majoring in Electronics and communication engineering. 
+            <br>Idealistic person, who believes that 'there is always a greater height to aim for'.
+        </p>
+    </div>
     <br>
     <h3>
         Education
@@ -78,7 +85,9 @@
             </p>
         </div>
     </div>
-    <div class="skills">
+    <hr>
+    <!--
+        <div class="skills">
         <h3>Skills</h3>
         <p>HTML</p>
         <div class="container">
@@ -100,8 +109,10 @@
         <div class="skills Python">60%</div>
         </div>
     </div>
+    -->
+    
 </section>
-<section class="projects">
+<section class="projects" id="project">
     <h1>Projects</h1>
         <p>document.write ("nnn"); // 3 new lines! 
             My oh my! However, if this is rendering
@@ -162,6 +173,30 @@
         </div>
     </div>
 </section>
-
+<section class="con" id="con">
+    <h1>
+        To Know More 
+    </h1>
+</section>
+<section class="contact">
+    <h1>
+        Contact
+    </h1>
+    <div>
+        <!-- <a href="" class = "hero-btn" >Contact</a> -->
+    
+    </div>
+    <div class="c-btn">
+        <a href="https://wa.me/919600228434" class = "h-btn" >Phone</a>
+        <a href="mailto:rashmisuresh1504@gmail.com" class = "h-btn" >Email</a>
+        <a href="https://www.linkedin.com/in/rashmi-s-3045091b9/" class = "h-btn" >LinkedIn</a>
+        <a href="https://goo.gl/maps/e5DzYiy5EH34cWon6" class = "h-btn" >Address</a>
+       <!-- <i class="fa-regular fa-envelope"></i>
+        <i class="fa-regular fa-phone"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        -->
+    </div>
+</section>
 </body>
 </html>
