@@ -25,8 +25,8 @@
 }
 .hhead{
     padding-top: 20px;
-    font-size: 38px;
-    text-align: center;
+    font-size: 42px;
+    text-align: left;
     flex:1;
 }
 .navv{
@@ -51,7 +51,61 @@
     background-image: url(images/carrack.jpg);
     width: 100%;
 }
-
+.text-box{
+    margin:50px;
+    text-align: left;
+    color: white;
+    font-size: 28px;
+    padding-top: 300px;
+    padding-right: 200px;
+    padding-left: 0mm;
+}
+.evhead{
+    font-size: 32px;
+    text-align: center;
+    padding: 100px;
+    color: black;
+    background-color: antiquewhite;
+}
+.topic{
+    margin-top: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    image-rendering: auto;
+}
+.topic img{
+    width: 1400px;
+    height: 600px;
+}
+.row{
+    margin-top: 10%;
+    display:flex;
+    justify-content: space-between;
+}
+.bloggg-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.bloggg-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.bloggg-col p{
+    padding: 0;
+}
+.bloggg-col h4{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.evboddy{
+    margin: 50px;
+    text-align: justify;
+}
 
 /*
 .topic{
